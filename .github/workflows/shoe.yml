@@ -36,4 +36,4 @@ jobs:
     - name: initiating surg
       run: npm install --g surge
     - name: deploying surg
-      run: surge ./ build http://tayyab_store.surge.sh/--token{{secrets.Virus}}
+      run: surge ./ build http://tayyab_store.surge.sh/--token{{secrets.shoe}}
